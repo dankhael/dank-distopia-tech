@@ -12,7 +12,27 @@ Antes de entrar na área é super importante aprender inglês. Todo o material e
 É normal estar perdido no começo e não saber o que especializar. Mas tenta estudar aquilo que gostas. Vai sempre haver conceitos chatos ou momentos que vais sentir perdido, desta forma tenta estudar aquilo que estás a gostar para não desanimar. Existe milhares de áreas de atuação/especialização (no server temos algumas, mas não engloba um décimo do que existe) tenta explorar um pouco de tudo e caso estejas a gostar dos conceitos, explora. A chave para o sucesso é seres bom em alguma coisa e não seres o que sabe um pouco de tudo e não conseguires fazer nada.
 
 ## 3. Nem tudo é Programar
-A programação é apenas uma ferramenta. Resolver problemas, arquitetar soluções e entender processos são competências tão importantes quanto escrever código.
+
+Mergulhar na tecnologia não significa apenas escrever código para o Back-end ou Front-end. O sucesso de um projeto depende de um ecossistema de áreas que trabalham em conjunto, e ter uma noção básica sobre elas vai tornar-te um profissional muito mais completo.
+
+### Bancos de Dados e a Estrutura da Informação
+Antes de qualquer linha de código ser funcional, precisamos de saber onde e como guardar a informação. É aqui que entra a gestão de bases de dados, utilizando tecnologias SQL ou NoSQL para garantir que os dados do projeto estão organizados, seguros e acessíveis.
+
+### Design e Experiência: UI e UX
+Um software pode ser tecnicamente perfeito, mas se for difícil de usar, ninguém o usará. O UI (User Interface) foca-se naquilo que vemos: a disposição dos elementos e a estética da interface. Já o UX (User Experience) foca-se no que sentimos: a fluidez da navegação, o número de cliques para chegar a um objetivo e como o utilizador interage com o produto de forma comercial e natural.
+
+### Pesquisa de Campo e Feedback
+Não desenvolvemos para nós próprios, mas sim para pessoas. A pesquisa de campo é o que nos permite entender as necessidades reais do público. Isto envolve desde questionários direcionados até ao lançamento de versões Alpha para recolha de feedback. Conversar com testadores e analisar dados de uso é o que permite ajustar o rumo do projeto antes do lançamento final.
+
+### Gerenciamento de Projeto e Engenharia de Software
+Um projeto sem organização raramente chega ao fim. Esta área trata da maquinaria por trás do desenvolvimento: organização de tarefas, definição de prazos e documentação. O foco aqui é aplicar técnicas de produção para garantir que as funcionalidades são entregues a tempo e que a equipa comunica de forma eficiente.
+
+### Ciência de Dados e Inteligência Artificial
+Ao contrário da programação tradicional, estas áreas vivem muito da matemática: estatística, álgebra linear, cálculo, probabilidade e lógica. Um cientista de dados utiliza estas ferramentas para interpretar grandes volumes de informação e criar modelos preditivos. Aqui, o código funciona como um meio para extrair insights e resolver problemas complexos em contextos como saúde, finanças ou marketing.
+
+### Nota final
+Saber lógica e saber programar é a base que evita que portas se fechem por falta de conhecimento técnico. No entanto, não precisas de ser um especialista em tudo. O mais importante é ter a sensibilidade de entender como cada uma destas peças se encaixa para construir algo maior. A programação abre caminhos, mas é o conhecimento transversal que te permite percorrê-los com sucesso.
+
 
 ## 4. Lógica de programação
 Ao iniciar o aprendizado em programação, antes mesmo de escolher uma linguagem, é necessário ter em mente que a coisa mais importante é a lógica para solucionar o problema fornecido.
