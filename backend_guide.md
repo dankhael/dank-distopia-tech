@@ -22,7 +22,9 @@ O backend é a **"alma" da aplicação** - fundamental para o funcionamento plen
 - Queda da plataforma
 - Comprometimento de dados sensíveis
 - Casos de uso falhos (ex: cupom usado infinitamente)
-- Prejuízos monetários, jurídicos e reputacionais
+
+
+Todos esses problemas causam prejuízos monetários/jurídicos/reputacionais consideráveis para uma empresa.
 
 ---
 
@@ -44,7 +46,7 @@ Sistema de gerenciamento de banco de dados mais conhecido, usa **SQL** (Structur
 - https://www.mysql.com/
 
 ### 🐘 PHP
-Uma das linguagens mais antigas e ainda amplamente usadas. Poderosa para sistemas backend complexos, especialmente com frameworks como **Symfony**. Escolha popular para CMS e e-commerce (WordPress é baseado em PHP).
+Uma das linguagens mais antigas e ainda amplamente usadas. Apesar de ser muitas vezes associada a sites mais simples, pode ser uma ferramenta poderosa pra construir sistemas backend complexos, especialmente quando combinadas com frameworks como Symfony. Escolha muito popular pra sistemas de gerenciamento de conteúdo (CMS) e ecommerce (Wordpress que é muito usados nesses casos é baseado em PHP)
 - https://www.php.net/
 - https://wordpress.com/pt-br/
 - https://symfony.com/
