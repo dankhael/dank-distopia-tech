@@ -2,9 +2,9 @@
 
 ## 📖 EXPLICAÇÃO DA ÁREA
 
-**Definição:** O backend (ou server-side) é o alicerce de qualquer aplicação web. É responsável pelo servidor, aplicação e banco de dados que trabalham juntos para garantir que o frontend funcione como deveria. O backend processa lógicas e regras de negócio, interações com banco de dados, autenticação e muito mais.
+**Definição:** O backend (ou server-side) é o alicerce de praticamente qualquer sistema de software moderno. Independente do tipo - aplicações web, jogos online, apps mobile, sistemas de armazenamento em nuvem, IoT devices, plataformas SaaS ou serviços internos de empresas - sempre existe um backend responsável pelo servidor, aplicação e banco de dados que trabalham em conjunto. O backend garante que o client (frontend do site, interface do aplicativo, jogo, app, etc.) funcione como deveria. Processa lógicas e regras de negócio, interações com banco de dados, autenticação, escalabilidade e muito mais. 
 
-**Termos Chave:** Server-Side, Database, Business Logic, APIs
+**Termos Chave:** Server-Side, Database, Business Logic, APIs, Authentication, Scalability, Cloud Infrastructure, Microservices, REST, Middleware
 
 ---
 
@@ -21,7 +21,7 @@ As responsabilidades de um desenvolvedor backend variam bastante dependendo da �
 O backend é a **"alma" da aplicação** - fundamental para o funcionamento pleno de qualquer projeto web. Falhas podem causar:
 - Queda da plataforma
 - Comprometimento de dados sensíveis
-- Casos de uso falhos (ex: cupom usado infinitamente)
+- Casos de uso falhos (ex: cupom que pode ser usado infinitamente)
 
 
 Todos esses problemas causam prejuízos monetários/jurídicos/reputacionais consideráveis para uma empresa.
@@ -41,13 +41,34 @@ Popular pelo sua **simplicidade e legibilidade**. Frameworks como **Django** e *
 - https://www.djangoproject.com/
 - https://flask.palletsprojects.com/
 
-### 🗄️ MySQL
+### 🗄️ Tecnologias de Bancos de Dados
+Por ser um dos pilares do desenvolvimento backend, existem diversas opções e paradigmas de sistemas de gerenciamento de banco de dados que cobrem necessidades diferentes. A escolha entre um banco de dados SQL vs NoSQL depende do tipo de dados que você está guardando e quais propriedades o seu banco precisa ter.
+
+#### 🐬 MySQL
+
 Sistema de gerenciamento de banco de dados mais conhecido, usa **SQL** (Structured Query Language). Desenvolvido para processar bancos grandes rapidamente. Oferece conectividade, velocidade e segurança ideais para bancos de dados na internet.
 - https://www.mysql.com/
 
+#### 🦭 MariaDB
+Versão alternativa do MySQL gerenciada pela comunidade, com uma licensa de código aberto mais permissiva, mantém compatibilidade com MySQL e adiciona features de aprimoramento de performance e outros. Tende a receber features e melhorias mais rápido que MySQL devido à natureza do modelo de desenvolvimento em código aberto. 
+- https://mariadb.org/
+
+#### 🐘 PostgreSQL
+Banco de dados SQL avançado, open source e altamente confiável. Conhecido por sua **robustez** e suporte a tipos de dados complexos, features avançadas como JSON e extensões. Oferece melhor performance que MySQL para queries complexas e é preferido por empresas que precisam de banco de dados poderoso e escalável.
+- https://www.postgresql.org/
+
+#### ⚡ Supabase
+Plataforma backend-as-a-service construída sobre PostgreSQL que oferece **desenvolvimento rápido sem infraestrutura complexa**. Fornece autenticação, realtime database, storage de arquivos e APIs automáticas. Ideal para startups, MVPs e desenvolvedores que querem focar na lógica de negócio.
+- https://supabase.com/
+
+#### 🍃 MongoDB
+Banco de dados NoSQL orientado a **documentos** (JSON). Diferente de bancos SQL tradicionais, MongoDB oferece maior flexibilidade na estrutura dos dados - ideal para aplicações com dados não estruturados ou que mudam frequentemente. Popular em startups tech, plataformas de tempo real e aplicações que precisam escalar horizontalmente com rapidez.
+- https://www.mongodb.com/
+
 ### 🐘 PHP
-Uma das linguagens mais antigas e ainda amplamente usadas. Apesar de ser muitas vezes associada a sites mais simples, pode ser uma ferramenta poderosa pra construir sistemas backend complexos, especialmente quando combinadas com frameworks como Symfony. Escolha muito popular pra sistemas de gerenciamento de conteúdo (CMS) e ecommerce (Wordpress que é muito usados nesses casos é baseado em PHP)
+Uma das linguagens mais antigas e ainda amplamente usadas. É associada a sites mais simples usando Laravel como framework, que facilita o desenvolvimento junto à um ecossistema robusto de ferramentas auxiliares, ao mesmo tempo que pode ser uma linguagem poderosa pra construir sistemas backend complexos usando Symfony. Escolha muito popular pra sistemas de gerenciamento de conteúdo (CMS) e ecommerce (Wordpress que é muito usado nesses casos é baseado em PHP)
 - https://www.php.net/
+- https://laravel.com/
 - https://wordpress.com/pt-br/
 - https://symfony.com/
 
@@ -72,10 +93,11 @@ https://roadmap.sh/backend/projects
 
 ## 🔗 LINKS ÚTEIS
 
-### Documentação e Artigos
+### Documentação, Artigos e Videos Relacionados
 - https://alokai.com/blog/what-is-backend
 - https://www.codecademy.com/article/what-is-back-end-architecture
 - https://www.youtube.com/watch?v=Qjk-cSW-jk4
-
+- https://www.youtube.com/watch?v=Bfm3Ms2cTg0
+- https://www.youtube.com/watch?v=_7nISfpofec
 ### Roadmap Sugerido
 https://roadmap.sh/backend?r=backend-beginner
