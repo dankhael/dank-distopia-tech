@@ -44,26 +44,15 @@ Popular pelo sua **simplicidade e legibilidade**. Frameworks como **Django** e *
 ### 🗄️ Tecnologias de Bancos de Dados
 Por ser um dos pilares do desenvolvimento backend, existem diversas opções e paradigmas de sistemas de gerenciamento de banco de dados que cobrem necessidades diferentes. A escolha entre um banco de dados SQL vs NoSQL depende do tipo de dados que você está guardando e quais propriedades o seu banco precisa ter.
 
-#### 🐬 MySQL
-
-Sistema de gerenciamento de banco de dados mais conhecido, usa **SQL** (Structured Query Language). Desenvolvido para processar bancos grandes rapidamente. Oferece conectividade, velocidade e segurança ideais para bancos de dados na internet.
+**💾 Bancos SQL (🐬 MySQL/MariaDB e 🐘 PostgreSQL/Supabase):** Sistemas de gerenciamento de banco de dados relacionais que usam **SQL** (Structured Query Language). MySQL é o mais conhecido, popular por sua velocidade e simplicidade (sendo o MariaDB a sua versão opensource). PostgreSQL é mais robusto e avançado, com melhor suporte a tipos de dados complexos, JSON e queries complexas, sendo preferido por empresas que precisam de maior escalabilidade. Supabase é uma plataforma backend-as-a-service construída sobre PostgreSQL que oferece **desenvolvimento rápido**, com autenticação, realtime database e APIs automáticas.
 - https://www.mysql.com/
-
-#### 🦭 MariaDB
-Versão alternativa do MySQL gerenciada pela comunidade, com uma licensa de código aberto mais permissiva, mantém compatibilidade com MySQL e adiciona features de aprimoramento de performance e outros. Tende a receber features e melhorias mais rápido que MySQL devido à natureza do modelo de desenvolvimento em código aberto. 
 - https://mariadb.org/
-
-#### 🐘 PostgreSQL
-Banco de dados SQL avançado, open source e altamente confiável. Conhecido por sua **robustez** e suporte a tipos de dados complexos, features avançadas como JSON e extensões. Oferece melhor performance que MySQL para queries complexas e é preferido por empresas que precisam de banco de dados poderoso e escalável.
 - https://www.postgresql.org/
-
-#### ⚡ Supabase
-Plataforma backend-as-a-service construída sobre PostgreSQL que oferece **desenvolvimento rápido sem infraestrutura complexa**. Fornece autenticação, realtime database, storage de arquivos e APIs automáticas. Ideal para startups, MVPs e desenvolvedores que querem focar na lógica de negócio.
 - https://supabase.com/
 
-#### 🍃 MongoDB
-Banco de dados NoSQL orientado a **documentos** (JSON). Diferente de bancos SQL tradicionais, MongoDB oferece maior flexibilidade na estrutura dos dados - ideal para aplicações com dados não estruturados ou que mudam frequentemente. Popular em startups tech, plataformas de tempo real e aplicações que precisam escalar horizontalmente com rapidez.
+**🍃 Bancos NoSQL (🍃 MongoDB e 🔥 Firestore):** Bancos de dados NoSQL orientados a **documentos** (JSON). Diferente de bancos SQL tradicionais, oferecem maior flexibilidade na estrutura dos dados (ideal para aplicações com dados não estruturados ou que mudam frequentemente). Popular em startups tech, plataformas de tempo real e aplicações que precisam escalar horizontalmente com rapidez. Firestore é a solução gerenciada do Firebase/Google Cloud, ideal para aplicações mobile e web com sincronização em tempo real.
 - https://www.mongodb.com/
+- https://firebase.google.com/docs/firestore
 
 ### 🐘 PHP
 Uma das linguagens mais antigas e ainda amplamente usadas. É associada a sites mais simples usando Laravel como framework, que facilita o desenvolvimento junto à um ecossistema robusto de ferramentas auxiliares, ao mesmo tempo que pode ser uma linguagem poderosa pra construir sistemas backend complexos usando Symfony. Escolha muito popular pra sistemas de gerenciamento de conteúdo (CMS) e ecommerce (Wordpress que é muito usado nesses casos é baseado em PHP)
