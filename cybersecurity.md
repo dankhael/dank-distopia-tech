@@ -49,12 +49,17 @@ A cibersegurança é essencial para a qualidade e viabilidade de qualquer produt
 
 ## EXEMPLOS DE PROJETOS
 **Plataformas de Prática:**
-- Seed Labs - https://seedsecuritylabs.org
-- TryHackMe - https://tryhackme.com
-- Hack The Box - https://www.hackthebox.com
+- **DVWA (Damn Vulnerable Web Application):** Aplicação recomendada para treinar e aprender pentest e vulnerabilidades antes de plataformas como TryHackMe e Hack The Box - https://www.kali.org/tools/dvwa/
+- **Seed Labs:** Laboratórios práticos desenvolvidos por universidades para ensinar cibersegurança através de exercícios hands-on que cobrem tópicos como buffer overflow, ataques web, criptografia, segurança de redes. etc. - https://seedsecuritylabs.org
+- **TryHackMe:** Plataforma gamificada de aprendizagem em cibersegurança com salas guiadas e paths estruturados, ideal para iniciantes e níveis intermédios. Oferece ambientes práticos com máquinas virtuais para explorar vulnerabilidades reais - https://tryhackme.com
+- **Hack The Box:** Plataforma avançada com máquinas e desafios CTF realistas para testar competências de pentesting. Requer resolução de um desafio inicial para acesso e foca em cenários próximos do mundo real - https://www.hackthebox.com
 
 
 ## LINKS ÚTEIS
+
+### Livros Recomendados
+- **Linux and LPIC-1 Guide to Linux Certification (5th Edition)** by Jason W. Eckert - https://pt.scribd.com/document/989049933/Linux-and-LPIC-1-Guide-to-Linux-Certification-5th-Edition-Jason-W-Eckert-eBook-PDF
+- **Computer Security: Art and Science (2nd Edition)** by Matt Bishop - https://dokumen.pub/computer-security-art-and-science-2nbsped-0321712331-9780321712332.html
 
 ### Documentação, Artigos e Videos Relacionados
 - **OWASP Cheat Sheet Series:** Best practices de segurança - https://cheatsheetseries.owasp.org/
