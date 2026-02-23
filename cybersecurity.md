@@ -3,7 +3,6 @@
 ## EXPLICAÇÃO DA ÁREA
 **Definição:** A cibersegurança (Cybersecurity) é a prática de proteger sistemas, redes, programas e dados contra ataques digitais, acessos não autorizados, danos ou roubo. É uma área que combina conhecimentos de informática, matemática (especialmente teoria dos números e álgebra para criptografia), engenharia e análise de ameaças. A cibersegurança é essencial em todas as indústrias, desde saúde e finanças até governos e infraestruturas críticas, protegendo informação sensível e garantindo a continuidade de operações. Abrange múltiplas camadas: segurança de aplicações (web, mobile, desktop), sistemas operativos, redes, criptografia e certificados digitais (SSL/TLS, PKI), gestão de identidades e acessos, segurança cloud, e práticas de DevSecOps. Uma pessoa que atua em cibersegurança precisa de ter uma grande compreensão de como os sistemas funcionam, como as vulnerabilidades são exploradas, e como implementar defesas eficazes para proteger contra ameaças em constante evolução.
 
-
 **Termos Chave:** Criptografia, SSL/TLS, PKI, Penetration Testing, Firewalls, Zero Day, Malware, Ethical Hacking, CTF (Capture The Flag), CVE (Common Vulnerabilities and Exposures)
 
 ## PROFISSÕES E ATUAÇÃO
@@ -24,6 +23,21 @@ A cibersegurança é essencial para a qualidade e viabilidade de qualquer produt
 
 
 ## TECNOLOGIAS UTILIZADAS
+
+### Fundamentos de Rede de Computadores
+A 'Web' e a 'Internet' são tecnolgias extremamente importantes para a sociedade moderna, e sua segurança está no centro da cibersegurança. Compreender os fundamentos de rede, protocolos (HTTP(S) e TCP/IP), e como os dados são transmitidos é crucial para identificar e mitigar vulnerabilidades. A segurança de redes envolve proteger a infraestrutura de comunicação contra ataques como DDoS, sniffing, spoofing, e garantir a confidencialidade, integridade e disponibilidade dos dados. A maioria dos ataques cibernéticos exploram falhas na comunicação e transmissão de dados, tornando o conhecimento de redes um pilar fundamental para qualquer profissional de cibersegurança. Desta forma, é essencial entender como os sistemas interagem, como as vulnerabilidades são exploradas e como implementar defesas eficazes para proteger contra ameaças em constante evolução.
+
+#### Material Recomendados:
+
+- **Videos Editados** - NetworkChuck Playlist - https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
+
+- **Playlist YouTube** - Computer Networking Full Course - https://www.youtube.com/watch?v=H8W9oMNSuwo&list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ
+
+- **Curso Online Cisco** - Introduction to Networks - https://www.netacad.com/courses/networking-basics
+
+- **Book** - Andrew S. Tanenbaum, David J. Wetherall; Computer Networks, 5/E, Prentice Hall, 2011. ISBN: ISBN-10: 0132126958:
+https://www.cs.csubak.edu/~jyang/Computer-Networks---A-Tanenbaum---5th-edition.pdf
+
 ### Linguagens de Programação
 - **Python:** Scripting de segurança, automação de testes e desenvolvimento de exploits
 - **JavaScript:** Compreender e testar vulnerabilidades web (XSS, CSRF)
@@ -66,6 +80,7 @@ A cibersegurança é essencial para a qualidade e viabilidade de qualquer produt
 - **OWASP Top 10:** Lista das vulnerabilidades web mais críticas - https://owasp.org/www-project-top-ten/
 - **CVE.org:** Database de vulnerabilidades conhecidas - https://www.cve.org/
 - **Cryptohack:** Aprender criptografia através de challenges - https://cryptohack.org/
+- **YouTube - The Cyber Mentor:** Playlist de vídeos de cibersegurança, bem produzidos, que pode ajudar a perceber se gosta da área - https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL
 - **YouTube - LiveOverflow:** Hacking tutorials e CTF writeups - https://www.youtube.com/@LiveOverflow/videos
 - **YouTube - IppSec:** HackTheBox walkthroughs - https://www.youtube.com/@ippsec
 
