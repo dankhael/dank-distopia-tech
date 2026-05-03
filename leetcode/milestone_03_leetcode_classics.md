@@ -1,16 +1,16 @@
 # Milestone 3 - Leetcode Classics
 
-**Tema:** Problemas classicos de programacao no estilo Leetcode
+**Tema:** Problemas clássicos de programação no estilo Leetcode
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Two Sum
+## Exercício 1 - Two Sum
 
-Dada uma lista de inteiros `nums` e um inteiro `target`, retorne os indices dos dois numeros cuja soma e igual ao `target`.
+Dada uma lista de inteiros `nums` e um inteiro `target`, retorne os índices dos dois números cuja soma é igual ao `target`.
 
-Voce pode assumir que cada entrada tem exatamente uma solucao e nao pode usar o mesmo elemento duas vezes.
+Você pode assumir que cada entrada tem exatamente uma solução e não pode usar o mesmo elemento duas vezes.
 
 ```python
 def two_sum(nums, target):
@@ -19,14 +19,14 @@ def two_sum(nums, target):
 
 # Exemplo:
 # two_sum([2, 7, 11, 15], 9) -> [0, 1]
-# Explicacao: nums[0] + nums[1] = 2 + 7 = 9
+# Explicação: nums[0] + nums[1] = 2 + 7 = 9
 ```
 
 ---
 
-## Exercicio 2 - Palindromo
+## Exercício 2 - Palíndromo
 
-Escreva uma funcao que verifique se uma string e um palindromo (le-se igual de tras pra frente). Ignore espacos e diferencas entre maiusculas/minusculas.
+Escreva uma função que verifique se uma string é um palíndromo (lê-se igual de trás para frente). Ignore espaços e diferenças entre maiúsculas/minúsculas.
 
 ```python
 def eh_palindromo(s):
@@ -41,14 +41,14 @@ def eh_palindromo(s):
 
 ---
 
-## Exercicio 3 - FizzBuzz
+## Exercício 3 - FizzBuzz
 
-Imprima os numeros de 1 a 100, mas:
-- Para multiplos de 3, imprima `"Fizz"` em vez do numero
-- Para multiplos de 5, imprima `"Buzz"` em vez do numero
-- Para multiplos de 3 e 5, imprima `"FizzBuzz"`
+Imprima os números de 1 a 100, mas:
+- Para múltiplos de 3, imprima `"Fizz"` em vez do número
+- Para múltiplos de 5, imprima `"Buzz"` em vez do número
+- Para múltiplos de 3 e 5, imprima `"FizzBuzz"`
 
-**Saida parcial:**
+**Saída parcial:**
 ```
 1
 2
@@ -70,9 +70,9 @@ FizzBuzz
 
 ---
 
-## Exercicio 4 - Numero reverso
+## Exercício 4 - Número reverso
 
-Escreva uma funcao que receba um inteiro e retorne o numero com os digitos invertidos.
+Escreva uma função que receba um inteiro e retorne o número com os dígitos invertidos.
 
 ```python
 def reverter_numero(n):
@@ -87,9 +87,9 @@ def reverter_numero(n):
 
 ---
 
-## Exercicio 5 - Anagramas
+## Exercício 5 - Anagramas
 
-Escreva uma funcao que verifique se duas strings sao anagramas (contem as mesmas letras, na mesma quantidade).
+Escreva uma função que verifique se duas strings são anagramas (contêm as mesmas letras, na mesma quantidade).
 
 ```python
 def sao_anagramas(s1, s2):
@@ -104,7 +104,7 @@ def sao_anagramas(s1, s2):
 
 ---
 
-## Exercicio 6 - Maior sequencia de caracteres
+## Exercício 6 - Maior sequência de caracteres
 
 Dada uma string, encontre o comprimento da maior substring sem caracteres repetidos.
 
@@ -121,9 +121,9 @@ def maior_substring_unica(s):
 
 ---
 
-## Exercicio 7 - Numeros romanos
+## Exercício 7 - Números romanos
 
-Escreva uma funcao que converta um numero inteiro (1 a 3999) para algarismos romanos.
+Escreva uma função que converta um número inteiro (1 a 3999) para algarismos romanos.
 
 ```python
 def para_romano(num):
@@ -138,9 +138,9 @@ def para_romano(num):
 
 ---
 
-## Exercicio 8 - Parenteses validos
+## Exercício 8 - Parênteses válidos
 
-Dada uma string contendo apenas os caracteres `(`, `)`, `{`, `}`, `[` e `]`, determine se a string e valida. Uma string e valida se cada abertura tem um fechamento correspondente na ordem correta.
+Dada uma string contendo apenas os caracteres `(`, `)`, `{`, `}`, `[` e `]`, determine se a string é válida. Uma string é válida se cada abertura tem um fechamento correspondente na ordem correta.
 
 ```python
 def parenteses_validos(s):

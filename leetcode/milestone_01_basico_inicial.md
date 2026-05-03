@@ -1,75 +1,75 @@
-# Milestone 1 - Basico Inicial
+# Milestone 1 - Básico Inicial
 
-**Tema:** Operacoes simples, atribuicao de variaveis e tipos basicos
+**Tema:** Operações simples, atribuição de variáveis e tipos básicos
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Ola, Mundo!
+## Exercício 1 - Olá, Mundo!
 
-Escreva um programa que imprima `Ola, Mundo!` no terminal.
+Escreva um programa que imprima `Olá, Mundo!` no terminal.
 
-**Exemplo de saida:**
+**Exemplo de saída:**
 ```
-Ola, Mundo!
+Olá, Mundo!
 ```
 
 ---
 
-## Exercicio 2 - Soma de dois numeros
+## Exercício 2 - Soma de dois números
 
-Crie duas variaveis `a` e `b` com valores inteiros e imprima a soma delas.
+Crie duas variáveis `a` e `b` com valores inteiros e imprima a soma delas.
 
 **Exemplo:**
 ```python
 a = 5
 b = 3
-# Saida esperada: 8
+# Saída esperada: 8
 ```
 
 ---
 
-## Exercicio 3 - Informacoes pessoais
+## Exercício 3 - Informações pessoais
 
-Crie variaveis para armazenar seu nome, idade e cidade. Imprima uma frase usando essas variaveis.
+Crie variáveis para armazenar seu nome, idade e cidade. Imprima uma frase usando essas variáveis.
 
-**Exemplo de saida:**
+**Exemplo de saída:**
 ```
-Meu nome e Maria, tenho 20 anos e moro em Sao Paulo.
+Meu nome é Maria, tenho 20 anos e moro em São Paulo.
 ```
 
 ---
 
-## Exercicio 4 - Operacoes aritmeticas
+## Exercício 4 - Operações aritméticas
 
-Dados dois numeros `x = 15` e `y = 4`, imprima o resultado de:
+Dados dois números `x = 15` e `y = 4`, imprima o resultado de:
 - Soma
-- Subtracao
-- Multiplicacao
-- Divisao (resultado decimal)
-- Divisao inteira
-- Resto da divisao (modulo)
-- Potenciacao (x elevado a y)
+- Subtração
+- Multiplicação
+- Divisão (resultado decimal)
+- Divisão inteira
+- Resto da divisão (módulo)
+- Potenciação (x elevado a y)
 
-**Exemplo de saida:**
+**Exemplo de saída:**
 ```
 Soma: 19
-Subtracao: 11
-Multiplicacao: 60
-Divisao: 3.75
-Divisao inteira: 3
+Subtração: 11
+Multiplicação: 60
+Divisão: 3.75
+Divisão inteira: 3
 Resto: 3
-Potencia: 50625
+Potência: 50625
 ```
 
 ---
 
-## Exercicio 5 - Troca de valores
+## Exercício 5 - Troca de valores
 
-Crie duas variaveis `a = 10` e `b = 20`. Troque os valores entre elas (sem usar uma terceira variavel) e imprima o resultado.
+Crie duas variáveis `a = 10` e `b = 20`. Troque os valores entre elas (sem usar uma terceira variável) e imprima o resultado.
 
-**Exemplo de saida:**
+**Exemplo de saída:**
 ```
 Antes: a = 10, b = 20
 Depois: a = 20, b = 10
@@ -77,25 +77,25 @@ Depois: a = 20, b = 10
 
 ---
 
-## Exercicio 6 - Calculadora de media
+## Exercício 6 - Calculadora de média
 
-Crie tres variaveis representando notas de um aluno. Calcule e imprima a media aritmetica.
+Crie três variáveis representando notas de um aluno. Calcule e imprima a média aritmética.
 
 **Exemplo:**
 ```python
 nota1 = 7.5
 nota2 = 8.0
 nota3 = 6.5
-# Saida esperada: Media: 7.333333333333333
+# Saída esperada: Média: 7.333333333333333
 ```
 
 ---
 
-## Exercicio 7 - Conversor de temperatura
+## Exercício 7 - Conversor de temperatura
 
 Escreva um programa que converta uma temperatura de Celsius para Fahrenheit.
 
-**Formula:** `F = C * 9/5 + 32`
+**Fórmula:** `F = C * 9/5 + 32`
 
 **Exemplo:**
 ```
@@ -105,24 +105,24 @@ Temperatura em Fahrenheit: 86.0
 
 ---
 
-## Exercicio 8 - Area e perimetro
+## Exercício 8 - Área e perímetro
 
-Dada uma variavel `lado = 5`, calcule e imprima a area e o perimetro de um quadrado.
+Dada uma variável `lado = 5`, calcule e imprima a área e o perímetro de um quadrado.
 
-**Exemplo de saida:**
+**Exemplo de saída:**
 ```
 Lado: 5
-Area: 25
-Perimetro: 20
+Área: 25
+Perímetro: 20
 ```
 
 ---
 
-## Exercicio 9 - Tipos de dados
+## Exercício 9 - Tipos de dados
 
-Crie variaveis dos seguintes tipos e imprima o valor e o tipo de cada uma usando `type()`:
-- Um numero inteiro
-- Um numero decimal (float)
+Crie variáveis dos seguintes tipos e imprima o valor e o tipo de cada uma usando `type()`:
+- Um número inteiro
+- Um número decimal (float)
 - Uma string
 - Um booleano
 
@@ -136,12 +136,12 @@ True - <class 'bool'>
 
 ---
 
-## Exercicio 10 - Entrada do usuario
+## Exercício 10 - Entrada do usuário
 
-Escreva um programa que peca o nome do usuario usando `input()` e imprima uma saudacao personalizada.
+Escreva um programa que peça o nome do usuário usando `input()` e imprima uma saudação personalizada.
 
 **Exemplo:**
 ```
 Digite seu nome: Carlos
-Ola, Carlos! Bem-vindo ao curso de Python!
+Olá, Carlos! Bem-vindo ao curso de Python!
 ```

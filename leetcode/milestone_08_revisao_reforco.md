@@ -1,19 +1,19 @@
-# Milestone 8 - Revisao e Reforco
+# Milestone 8 - Revisão e Reforço
 
-**Tema:** Exercicios integradores que combinam conceitos das milestones anteriores
+**Tema:** Exercícios integradores que combinam conceitos das milestones anteriores
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Gerenciador de tarefas
+## Exercício 1 - Gerenciador de tarefas
 
-Crie um sistema de gerenciamento de tarefas que combine listas, dicionarios, loops e funcoes. O sistema deve:
-- Adicionar tarefa com titulo, prioridade (1-5) e status ("pendente"/"concluida")
+Crie um sistema de gerenciamento de tarefas que combine listas, dicionários, loops e funções. O sistema deve:
+- Adicionar tarefa com título, prioridade (1-5) e status ("pendente"/"concluída")
 - Listar tarefas ordenadas por prioridade
-- Marcar tarefa como concluida
+- Marcar tarefa como concluída
 - Filtrar tarefas por status
-- Remover tarefas concluidas
+- Remover tarefas concluídas
 
 ```python
 class GerenciadorTarefas:
@@ -38,14 +38,14 @@ class GerenciadorTarefas:
 
 ---
 
-## Exercicio 2 - Analisador de texto
+## Exercício 2 - Analisador de texto
 
-Crie uma funcao que analise um texto e retorne um dicionario com:
+Crie uma função que analise um texto e retorne um dicionário com:
 - Total de palavras
-- Total de caracteres (sem espacos)
+- Total de caracteres (sem espaços)
 - Palavra mais frequente
 - Palavra mais longa
-- Numero de frases
+- Número de frases
 
 ```python
 def analisar_texto(texto):
@@ -53,7 +53,7 @@ def analisar_texto(texto):
     pass
 
 # Exemplo:
-# texto = "O Python e incrivel. Python e usado por muitos. Eu amo Python."
+# texto = "O Python é incrível. Python é usado por muitos. Eu amo Python."
 # analisar_texto(texto) ->
 # {
 #     "total_palavras": 12,
@@ -66,16 +66,16 @@ def analisar_texto(texto):
 
 ---
 
-## Exercicio 3 - Mini banco de dados
+## Exercício 3 - Mini banco de dados
 
-Implemente um sistema simples que simule um banco de dados em memoria para registrar alunos com:
+Implemente um sistema simples que simule um banco de dados em memória para registrar alunos com:
 - Inserir aluno (nome, idade, notas)
 - Buscar aluno por nome
-- Calcular media de um aluno
-- Listar alunos aprovados (media >= 7)
-- Ranking dos alunos por media (usando sort)
+- Calcular média de um aluno
+- Listar alunos aprovados (média >= 7)
+- Ranking dos alunos por média (usando sort)
 
-Use recursao para calcular a media se o aluno tiver sub-notas aninhadas.
+Use recursão para calcular a média se o aluno tiver sub-notas aninhadas.
 
 ```python
 class MiniDB:
@@ -100,15 +100,15 @@ class MiniDB:
 
 ---
 
-## Exercicio 4 - Jogo da forca
+## Exercício 4 - Jogo da forca
 
 Implemente o jogo da forca usando conceitos de strings, listas, loops e condicionais.
 
 Requisitos:
-- Lista de palavras pre-definidas, escolha aleatoria
+- Lista de palavras pré-definidas, escolha aleatória
 - Mostrar a palavra com letras ocultas (underscores)
-- Controlar letras ja tentadas
-- Limitar numero de erros (6 tentativas)
+- Controlar letras já tentadas
+- Limitar número de erros (6 tentativas)
 - Mostrar as partes do boneco a cada erro
 
 ```python
@@ -122,9 +122,9 @@ def jogo_da_forca():
 
 ---
 
-## Exercicio 5 - Encontrar caminho em labirinto
+## Exercício 5 - Encontrar caminho em labirinto
 
-Dado um labirinto representado como uma matriz 2D, use recursao (backtracking) para encontrar um caminho do canto superior esquerdo ao canto inferior direito.
+Dado um labirinto representado como uma matriz 2D, use recursão (backtracking) para encontrar um caminho do canto superior esquerdo ao canto inferior direito.
 
 - `0` = caminho livre
 - `1` = parede
@@ -146,9 +146,9 @@ def resolver_labirinto(labirinto):
 
 ---
 
-## Exercicio 6 - Sistema de busca
+## Exercício 6 - Sistema de busca
 
-Crie um sistema de busca que indexe uma lista de textos e permita buscar por palavras-chave. Combine dicionarios, listas e algoritmos de busca.
+Crie um sistema de busca que indexe uma lista de textos e permita buscar por palavras-chave. Combine dicionários, listas e algoritmos de busca.
 
 ```python
 class BuscaTexto:
@@ -157,22 +157,22 @@ class BuscaTexto:
         self.documentos = []
 
     def adicionar_documento(self, texto):
-        """Indexa o documento para busca rapida"""
+        """Indexa o documento para busca rápida"""
         pass
 
     def buscar(self, palavra):
-        """Retorna lista de documentos que contem a palavra"""
+        """Retorna lista de documentos que contêm a palavra"""
         pass
 
     def buscar_multiplas(self, palavras):
-        """Retorna documentos que contem TODAS as palavras"""
+        """Retorna documentos que contêm TODAS as palavras"""
         pass
 
 # Teste:
 # b = BuscaTexto()
-# b.adicionar_documento("Python e uma linguagem de programacao")
-# b.adicionar_documento("Java tambem e uma linguagem popular")
-# b.adicionar_documento("Python e usado para ciencia de dados")
+# b.adicionar_documento("Python é uma linguagem de programação")
+# b.adicionar_documento("Java também é uma linguagem popular")
+# b.adicionar_documento("Python é usado para ciência de dados")
 # b.buscar("Python") -> [0, 2]
 # b.buscar_multiplas(["Python", "dados"]) -> [2]
 ```

@@ -1,14 +1,14 @@
 # Milestone 4 - Algoritmos e Estrutura de Dados
 
-**Tema:** Dicionarios, listas, tuplas, fila, pilha e algoritmos de ordenacao
+**Tema:** Dicionários, listas, tuplos, fila, pilha e algoritmos de ordenação
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Contador de palavras
+## Exercício 1 - Contador de palavras
 
-Dada uma string com varias palavras, use um dicionario para contar quantas vezes cada palavra aparece.
+Dada uma string com várias palavras, use um dicionário para contar quantas vezes cada palavra aparece.
 
 ```python
 def contar_palavras(texto):
@@ -22,9 +22,9 @@ def contar_palavras(texto):
 
 ---
 
-## Exercicio 2 - Pilha com lista
+## Exercício 2 - Pilha com lista
 
-Implemente uma pilha (stack) usando uma lista Python com as operacoes:
+Implemente uma pilha (stack) usando uma lista Python com as operações:
 - `push(item)`: adiciona um item ao topo
 - `pop()`: remove e retorna o item do topo
 - `peek()`: retorna o item do topo sem remover
@@ -59,9 +59,9 @@ class Pilha:
 
 ---
 
-## Exercicio 3 - Fila com lista
+## Exercício 3 - Fila com lista
 
-Implemente uma fila (queue) usando uma lista Python com as operacoes:
+Implemente uma fila (queue) usando uma lista Python com as operações:
 - `enqueue(item)`: adiciona um item ao final da fila
 - `dequeue()`: remove e retorna o primeiro item da fila
 - `front()`: retorna o primeiro item sem remover
@@ -96,9 +96,9 @@ class Fila:
 
 ---
 
-## Exercicio 4 - Bubble Sort
+## Exercício 4 - Bubble Sort
 
-Implemente o algoritmo Bubble Sort para ordenar uma lista de numeros em ordem crescente.
+Implemente o algoritmo Bubble Sort para ordenar uma lista de números em ordem crescente.
 
 ```python
 def bubble_sort(lista):
@@ -110,15 +110,15 @@ def bubble_sort(lista):
 # -> [11, 12, 22, 25, 34, 64, 90]
 ```
 
-**Desafio extra:** Imprima o estado da lista apos cada passagem do algoritmo para visualizar o processo de ordenacao.
+**Desafio extra:** Imprima o estado da lista após cada passagem do algoritmo para visualizar o processo de ordenação.
 
 ---
 
-## Exercicio 5 - Tuplas e coordenadas
+## Exercício 5 - Tuplos e coordenadas
 
-Dada uma lista de tuplas representando coordenadas `(x, y)`, escreva uma funcao que calcule a distancia entre cada par consecutivo de pontos.
+Dada uma lista de tuplos representando coordenadas `(x, y)`, escreva uma função que calcule a distância entre cada par consecutivo de pontos.
 
-**Formula da distancia:** `d = sqrt((x2-x1)^2 + (y2-y1)^2)`
+**Fórmula da distância:** `d = sqrt((x2-x1)^2 + (y2-y1)^2)`
 
 ```python
 import math
@@ -134,9 +134,9 @@ def distancias_consecutivas(pontos):
 
 ---
 
-## Exercicio 6 - Agenda telefonica
+## Exercício 6 - Agenda telefônica
 
-Crie uma agenda telefonica usando dicionarios com as seguintes funcionalidades:
+Crie uma agenda telefônica usando dicionários com as seguintes funcionalidades:
 - Adicionar contato (nome e telefone)
 - Buscar contato pelo nome
 - Remover contato
@@ -169,9 +169,9 @@ class Agenda:
 
 ---
 
-## Exercicio 7 - Selection Sort
+## Exercício 7 - Selection Sort
 
-Implemente o algoritmo Selection Sort para ordenar uma lista de numeros.
+Implemente o algoritmo Selection Sort para ordenar uma lista de números.
 
 ```python
 def selection_sort(lista):
@@ -185,9 +185,9 @@ def selection_sort(lista):
 
 ---
 
-## Exercicio 8 - Frequencia de caracteres
+## Exercício 8 - Frequência de caracteres
 
-Escreva uma funcao que receba uma string e retorne um dicionario com a frequencia de cada caractere, ordenado do mais frequente para o menos frequente.
+Escreva uma função que receba uma string e retorne um dicionário com a frequência de cada caractere, ordenado do mais frequente para o menos frequente.
 
 ```python
 def frequencia_ordenada(texto):

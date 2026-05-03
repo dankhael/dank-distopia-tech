@@ -1,14 +1,14 @@
 # Milestone 11 - Design Patterns
 
-**Tema:** Padroes de projeto mais utilizados na pratica
+**Tema:** Padrões de projeto mais utilizados na prática
 
 **Linguagem:** Java
 
 ---
 
-## Exercicio 1 - Singleton
+## Exercício 1 - Singleton
 
-Implemente o padrao Singleton para uma classe `ConfigManager` que carrega e armazena configuracoes da aplicacao. Garanta que apenas uma instancia exista.
+Implemente o padrão Singleton para uma classe `ConfigManager` que carrega e armazena configurações da aplicação. Garanta que apenas uma instância exista.
 
 ```java
 public class ConfigManager {
@@ -44,9 +44,9 @@ public class ConfigManager {
 
 ---
 
-## Exercicio 2 - Factory Method
+## Exercício 2 - Factory Method
 
-Crie uma fabrica de formas geometricas. A classe `FormaFactory` deve receber o tipo da forma como string e retornar a instancia correta.
+Crie uma fábrica de formas geométricas. A classe `FormaFactory` deve receber o tipo da forma como string e retornar a instância correta.
 
 ```java
 public interface Forma {
@@ -67,7 +67,7 @@ public class FormaFactory {
     public static void main(String[] args) {
         Forma c = FormaFactory.criarForma("circulo", 5);
         Forma q = FormaFactory.criarForma("quadrado", 4);
-        c.desenhar();  // "Desenhando circulo com raio 5"
+        c.desenhar();  // "Desenhando círculo com raio 5"
         System.out.println(c.calcularArea()); // 78.54
     }
 }
@@ -75,9 +75,9 @@ public class FormaFactory {
 
 ---
 
-## Exercicio 3 - Observer
+## Exercício 3 - Observer
 
-Implemente o padrao Observer para um sistema de noticias. Quando uma noticia e publicada, todos os assinantes sao notificados.
+Implemente o padrão Observer para um sistema de notícias. Quando uma notícia é publicada, todos os assinantes são notificados.
 
 ```java
 public interface Observador {
@@ -94,7 +94,7 @@ public class AgenciaNoticias implements Publicador {
     private List<Observador> observadores;
     private String ultimaNoticia;
 
-    // implemente os metodos
+    // implemente os métodos
 
     public void publicarNoticia(String noticia) {
         this.ultimaNoticia = noticia;
@@ -115,16 +115,16 @@ public class Leitor implements Observador {
 // AgenciaNoticias agencia = new AgenciaNoticias();
 // agencia.inscrever(new Leitor("Ana"));
 // agencia.inscrever(new Leitor("Bruno"));
-// agencia.publicarNoticia("Java 25 lancado!");
-// -> "Ana recebeu: Java 25 lancado!"
-// -> "Bruno recebeu: Java 25 lancado!"
+// agencia.publicarNoticia("Java 25 lançado!");
+// -> "Ana recebeu: Java 25 lançado!"
+// -> "Bruno recebeu: Java 25 lançado!"
 ```
 
 ---
 
-## Exercicio 4 - Strategy
+## Exercício 4 - Strategy
 
-Implemente o padrao Strategy para um sistema de calculo de frete. Diferentes estrategias de envio tem custos diferentes.
+Implemente o padrão Strategy para um sistema de cálculo de frete. Diferentes estratégias de envio têm custos diferentes.
 
 ```java
 public interface EstrategiaFrete {
@@ -139,11 +139,11 @@ public class FreteEconomico implements EstrategiaFrete {
 }
 
 public class FreteExpresso implements EstrategiaFrete {
-    // custo mais alto, entrega rapida
+    // custo mais alto, entrega rápida
 }
 
 public class FreteSedex implements EstrategiaFrete {
-    // custo intermediario
+    // custo intermediário
 }
 
 public class CalculadoraFrete {
@@ -168,9 +168,9 @@ public class CalculadoraFrete {
 
 ---
 
-## Exercicio 5 - Decorator
+## Exercício 5 - Decorator
 
-Implemente o padrao Decorator para um sistema de pedidos de cafe. O cafe base pode receber decoradores como leite, chocolate, chantilly, etc.
+Implemente o padrão Decorator para um sistema de pedidos de café. O café base pode receber decoradores como leite, chocolate, chantilly, etc.
 
 ```java
 public interface Bebida {
@@ -180,7 +180,7 @@ public interface Bebida {
 
 public class CafeSimples implements Bebida {
     @Override
-    public String descricao() { return "Cafe simples"; }
+    public String descricao() { return "Café simples"; }
 
     @Override
     public double preco() { return 5.0; }
@@ -200,13 +200,13 @@ public abstract class DecoradorBebida implements Bebida {
 // Bebida pedido = new CafeSimples();
 // pedido = new ComLeite(pedido);
 // pedido = new ComChocolate(pedido);
-// System.out.println(pedido.descricao()); // "Cafe simples + Leite + Chocolate"
+// System.out.println(pedido.descricao()); // "Café simples + Leite + Chocolate"
 // System.out.println(pedido.preco());     // 5.0 + 2.0 + 3.0 = 10.0
 ```
 
 ---
 
-## Exercicio 6 - Adapter
+## Exercício 6 - Adapter
 
 Crie um Adapter para integrar um sistema de pagamento antigo com uma nova interface.
 
@@ -220,12 +220,12 @@ public interface ProcessadorPagamento {
 // Sistema legado com interface diferente
 public class SistemaPagamentoLegado {
     public int realizarCobranca(String numCartao, int valorCentavos) {
-        System.out.println("Cobrando " + valorCentavos + " centavos do cartao " + numCartao);
-        return 1; // codigo de sucesso
+        System.out.println("Cobrando " + valorCentavos + " centavos do cartão " + numCartao);
+        return 1; // código de sucesso
     }
 
     public int cancelarCobranca(int codigoTransacao) {
-        System.out.println("Cancelando transacao " + codigoTransacao);
+        System.out.println("Cancelando transação " + codigoTransacao);
         return 1;
     }
 }
@@ -234,15 +234,15 @@ public class SistemaPagamentoLegado {
 public class AdapterPagamento implements ProcessadorPagamento {
     private SistemaPagamentoLegado sistemaLegado;
 
-    // adapte os metodos
+    // adapte os métodos
 }
 ```
 
 ---
 
-## Exercicio 7 - Builder
+## Exercício 7 - Builder
 
-Implemente o padrao Builder para construir objetos `Pedido` complexos de forma legivel.
+Implemente o padrão Builder para construir objetos `Pedido` complexos de forma legível.
 
 ```java
 public class Pedido {
@@ -299,7 +299,7 @@ public class Pedido {
             .endereco("Rua A, 123")
             .pagamento("Cartao")
             .comEmbrulho()
-            .observacao("Entregar pela manha")
+            .observacao("Entregar pela manhã")
             .build();
     }
 }
@@ -307,27 +307,27 @@ public class Pedido {
 
 ---
 
-## Exercicio 8 - Projeto final: Combinando patterns
+## Exercício 8 - Projeto final: Combinando patterns
 
-Crie um mini sistema de e-commerce que combine multiplos design patterns:
+Crie um mini sistema de e-commerce que combine múltiplos design patterns:
 
-- **Singleton**: `Loja` (unica instancia)
-- **Factory**: Criar diferentes tipos de `Produto` (fisico, digital, servico)
+- **Singleton**: `Loja` (única instância)
+- **Factory**: Criar diferentes tipos de `Produto` (físico, digital, serviço)
 - **Observer**: Notificar clientes quando um produto volta ao estoque
-- **Strategy**: Diferentes formas de calculo de desconto (desconto fixo, percentual, progressivo)
+- **Strategy**: Diferentes formas de cálculo de desconto (desconto fixo, percentual, progressivo)
 - **Builder**: Construir pedidos complexos
 
 ```java
-// Este exercicio e aberto - planeje a arquitetura e implemente
+// Este exercício é aberto - planeje a arquitetura e implemente
 // o sistema combinando os patterns aprendidos.
 //
-// Requisitos minimos:
+// Requisitos mínimos:
 // 1. Cadastro de produtos (factory)
-// 2. Instancia unica da loja (singleton)
-// 3. Notificacao de clientes sobre estoque (observer)
-// 4. Calculo de desconto configuravel (strategy)
+// 2. Instância única da loja (singleton)
+// 3. Notificação de clientes sobre estoque (observer)
+// 4. Cálculo de desconto configurável (strategy)
 // 5. Montagem de pedidos (builder)
 //
-// Bonus: adicione Decorator para servicos extras no pedido
+// Bônus: adicione Decorator para serviços extras no pedido
 // (embrulho, entrega expressa, seguro)
 ```

@@ -1,14 +1,14 @@
-# Milestone 7 - Binary Search, Grafos, Dijkstra e Arvores
+# Milestone 7 - Binary Search, Grafos, Dijkstra e Árvores
 
-**Tema:** Algoritmos de busca, grafos e estruturas de arvore
+**Tema:** Algoritmos de busca, grafos e estruturas de árvore
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Binary Search
+## Exercício 1 - Binary Search
 
-Implemente o algoritmo de busca binaria em uma lista ordenada. A funcao deve retornar o indice do elemento buscado ou -1 se nao encontrado.
+Implemente o algoritmo de busca binária em uma lista ordenada. A função deve retornar o índice do elemento buscado ou -1 se não encontrado.
 
 ```python
 def busca_binaria(lista, alvo):
@@ -23,9 +23,9 @@ def busca_binaria(lista, alvo):
 
 ---
 
-## Exercicio 2 - Binary Search recursivo
+## Exercício 2 - Binary Search recursivo
 
-Implemente a versao recursiva da busca binaria.
+Implemente a versão recursiva da busca binária.
 
 ```python
 def busca_binaria_recursiva(lista, alvo, inicio=0, fim=None):
@@ -39,12 +39,12 @@ def busca_binaria_recursiva(lista, alvo, inicio=0, fim=None):
 
 ---
 
-## Exercicio 3 - Representar um grafo
+## Exercício 3 - Representar um grafo
 
-Crie uma classe `Grafo` que use um dicionario de listas de adjacencia. Implemente:
-- `adicionar_vertice(v)`: adiciona um vertice
+Crie uma classe `Grafo` que use um dicionário de listas de adjacência. Implemente:
+- `adicionar_vertice(v)`: adiciona um vértice
 - `adicionar_aresta(v1, v2)`: adiciona uma aresta entre v1 e v2
-- `mostrar()`: imprime a lista de adjacencia
+- `mostrar()`: imprime a lista de adjacência
 
 ```python
 class Grafo:
@@ -76,9 +76,9 @@ class Grafo:
 
 ---
 
-## Exercicio 4 - BFS (Busca em Largura)
+## Exercício 4 - BFS (Busca em Largura)
 
-Implemente o algoritmo de busca em largura (BFS) para percorrer um grafo a partir de um vertice inicial.
+Implemente o algoritmo de busca em largura (BFS) para percorrer um grafo a partir de um vértice inicial.
 
 ```python
 from collections import deque
@@ -87,7 +87,7 @@ def bfs(grafo, inicio):
     # seu codigo aqui
     pass
 
-# Exemplo com dicionario de adjacencia:
+# Exemplo com dicionário de adjacência:
 # grafo = {
 #     "A": ["B", "C"],
 #     "B": ["A", "D", "E"],
@@ -101,9 +101,9 @@ def bfs(grafo, inicio):
 
 ---
 
-## Exercicio 5 - DFS (Busca em Profundidade)
+## Exercício 5 - DFS (Busca em Profundidade)
 
-Implemente o algoritmo de busca em profundidade (DFS), tanto na versao iterativa quanto na recursiva.
+Implemente o algoritmo de busca em profundidade (DFS), tanto na versão iterativa quanto na recursiva.
 
 ```python
 def dfs_iterativo(grafo, inicio):
@@ -114,17 +114,17 @@ def dfs_recursivo(grafo, inicio, visitados=None):
     # seu codigo aqui
     pass
 
-# Usando o mesmo grafo do exercicio anterior:
+# Usando o mesmo grafo do exercício anterior:
 # dfs_iterativo(grafo, "A") -> ["A", "C", "F", "E", "B", "D"]
-# (a ordem pode variar dependendo da implementacao)
+# (a ordem pode variar dependendo da implementação)
 ```
 
 ---
 
-## Exercicio 6 - Arvore binaria
+## Exercício 6 - Árvore binária
 
-Implemente uma arvore binaria de busca (BST) com as operacoes:
-- `inserir(valor)`: insere um valor na arvore
+Implemente uma árvore binária de busca (BST) com as operações:
+- `inserir(valor)`: insere um valor na árvore
 - `buscar(valor)`: retorna True se o valor existe
 - `em_ordem()`: retorna os valores em ordem crescente (in-order traversal)
 
@@ -159,9 +159,9 @@ class ArvoreBinaria:
 
 ---
 
-## Exercicio 7 - Dijkstra
+## Exercício 7 - Dijkstra
 
-Implemente o algoritmo de Dijkstra para encontrar o menor caminho entre dois vertices em um grafo com pesos.
+Implemente o algoritmo de Dijkstra para encontrar o menor caminho entre dois vértices em um grafo com pesos.
 
 ```python
 import heapq
@@ -184,12 +184,12 @@ def dijkstra(grafo, inicio, destino):
 
 ---
 
-## Exercicio 8 - Percursos da arvore
+## Exercício 8 - Percursos da árvore
 
-Dada a arvore binaria do exercicio 6, implemente os tres tipos de percurso:
-- Pre-ordem (pre-order): raiz, esquerda, direita
+Dada a árvore binária do exercício 6, implemente os três tipos de percurso:
+- Pré-ordem (pre-order): raiz, esquerda, direita
 - Em-ordem (in-order): esquerda, raiz, direita
-- Pos-ordem (post-order): esquerda, direita, raiz
+- Pós-ordem (post-order): esquerda, direita, raiz
 
 ```python
 def pre_ordem(no):
@@ -201,7 +201,7 @@ def em_ordem(no):
 def pos_ordem(no):
     pass
 
-# Para a arvore [5, 3, 7, 1, 4, 6, 8]:
+# Para a árvore [5, 3, 7, 1, 4, 6, 8]:
 # pre_ordem  -> [5, 3, 1, 4, 7, 6, 8]
 # em_ordem   -> [1, 3, 4, 5, 6, 7, 8]
 # pos_ordem  -> [1, 4, 3, 6, 8, 7, 5]
