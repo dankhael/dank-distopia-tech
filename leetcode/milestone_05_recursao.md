@@ -1,14 +1,14 @@
-# Milestone 5 - Recursao
+# Milestone 5 - Recursão
 
-**Tema:** Funcoes recursivas e pensamento recursivo
+**Tema:** Funções recursivas e pensamento recursivo
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Fatorial
+## Exercício 1 - Fatorial
 
-Escreva uma funcao recursiva que calcule o fatorial de um numero `n`.
+Escreva uma função recursiva que calcule o fatorial de um número `n`.
 
 ```python
 def fatorial(n):
@@ -23,11 +23,11 @@ def fatorial(n):
 
 ---
 
-## Exercicio 2 - Fibonacci
+## Exercício 2 - Fibonacci
 
-Escreva uma funcao recursiva que retorne o n-esimo numero da sequencia de Fibonacci.
+Escreva uma função recursiva que retorne o n-ésimo número da sequência de Fibonacci.
 
-A sequencia comeca com: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+A sequência começa com: 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 
 ```python
 def fibonacci(n):
@@ -43,9 +43,9 @@ def fibonacci(n):
 
 ---
 
-## Exercicio 3 - Soma de digitos
+## Exercício 3 - Soma de dígitos
 
-Escreva uma funcao recursiva que calcule a soma dos digitos de um numero inteiro positivo.
+Escreva uma função recursiva que calcule a soma dos dígitos de um número inteiro positivo.
 
 ```python
 def soma_digitos(n):
@@ -60,9 +60,9 @@ def soma_digitos(n):
 
 ---
 
-## Exercicio 4 - Potencia
+## Exercício 4 - Potência
 
-Escreva uma funcao recursiva que calcule `base` elevado a `expoente` sem usar o operador `**`.
+Escreva uma função recursiva que calcule `base` elevado a `expoente` sem usar o operador `**`.
 
 ```python
 def potencia(base, expoente):
@@ -77,9 +77,9 @@ def potencia(base, expoente):
 
 ---
 
-## Exercicio 5 - Inverter string
+## Exercício 5 - Inverter string
 
-Escreva uma funcao recursiva que inverta uma string.
+Escreva uma função recursiva que inverta uma string.
 
 ```python
 def inverter(s):
@@ -94,9 +94,9 @@ def inverter(s):
 
 ---
 
-## Exercicio 6 - Verificar palindromo (recursivo)
+## Exercício 6 - Verificar palíndromo (recursivo)
 
-Escreva uma funcao recursiva que verifique se uma string e um palindromo.
+Escreva uma função recursiva que verifique se uma string é um palíndromo.
 
 ```python
 def eh_palindromo(s):
@@ -111,9 +111,9 @@ def eh_palindromo(s):
 
 ---
 
-## Exercicio 7 - Torre de Hanoi
+## Exercício 7 - Torre de Hanoi
 
-Implemente a solucao recursiva para o problema da Torre de Hanoi. O programa deve imprimir cada movimento necessario.
+Implemente a solução recursiva para o problema da Torre de Hanoi. O programa deve imprimir cada movimento necessário.
 
 ```python
 def hanoi(n, origem, destino, auxiliar):
@@ -122,7 +122,7 @@ def hanoi(n, origem, destino, auxiliar):
 
 # Exemplo:
 # hanoi(3, "A", "C", "B")
-# Saida:
+# Saída:
 # Mover disco 1 de A para C
 # Mover disco 2 de A para B
 # Mover disco 1 de C para B
@@ -134,9 +134,9 @@ def hanoi(n, origem, destino, auxiliar):
 
 ---
 
-## Exercicio 8 - Achatar lista
+## Exercício 8 - Achatar lista
 
-Escreva uma funcao recursiva que "achate" (flatten) uma lista aninhada em uma lista simples.
+Escreva uma função recursiva que "achate" (flatten) uma lista aninhada em uma lista simples.
 
 ```python
 def achatar(lista):

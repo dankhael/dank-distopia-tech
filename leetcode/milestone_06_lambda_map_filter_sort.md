@@ -1,17 +1,17 @@
 # Milestone 6 - Lambda Functions, Map, Filter e Sort
 
-**Tema:** Funcoes lambda, map, filter e sort
+**Tema:** Funções lambda, map, filter e sort
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Lambda basico
+## Exercício 1 - Lambda básico
 
-Crie funcoes lambda para:
-- Dobrar um numero
-- Verificar se um numero e positivo
-- Retornar o maior entre dois numeros
+Crie funções lambda para:
+- Dobrar um número
+- Verificar se um número é positivo
+- Retornar o maior entre dois números
 
 ```python
 dobrar = # sua lambda aqui
@@ -26,7 +26,7 @@ maior = # sua lambda aqui
 
 ---
 
-## Exercicio 2 - Map para transformar dados
+## Exercício 2 - Map para transformar dados
 
 Dada uma lista de temperaturas em Celsius, use `map` com uma lambda para converter todas para Fahrenheit.
 
@@ -40,12 +40,12 @@ fahrenheit = # use map aqui
 
 ---
 
-## Exercicio 3 - Filter para selecionar dados
+## Exercício 3 - Filter para selecionar dados
 
-Dada uma lista de numeros, use `filter` para:
-1. Obter apenas os numeros pares
-2. Obter apenas os numeros maiores que 10
-3. Obter apenas os numeros negativos
+Dada uma lista de números, use `filter` para:
+1. Obter apenas os números pares
+2. Obter apenas os números maiores que 10
+3. Obter apenas os números negativos
 
 ```python
 numeros = [-5, 3, 12, -8, 7, 15, 20, -1, 8, 0]
@@ -61,10 +61,10 @@ negativos = # use filter aqui
 
 ---
 
-## Exercicio 4 - Sort com chave customizada
+## Exercício 4 - Sort com chave customizada
 
 Dada uma lista de tuplas `(nome, idade)`, ordene:
-1. Por nome (ordem alfabetica)
+1. Por nome (ordem alfabética)
 2. Por idade (crescente)
 3. Por idade (decrescente)
 
@@ -82,12 +82,12 @@ por_idade_desc = # use sorted aqui
 
 ---
 
-## Exercicio 5 - Pipeline de dados
+## Exercício 5 - Pipeline de dados
 
 Dada uma lista de strings com nomes, crie um pipeline que:
 1. Remova nomes com menos de 4 caracteres (filter)
-2. Converta todos para maiusculo (map)
-3. Ordene em ordem alfabetica (sorted)
+2. Converta todos para maiúsculo (map)
+3. Ordene em ordem alfabética (sorted)
 
 ```python
 nomes = ["ana", "carlos", "bo", "maria", "li", "fernando", "bea"]
@@ -99,11 +99,11 @@ resultado = # combine filter, map e sorted
 
 ---
 
-## Exercicio 6 - Ordenar dicionarios
+## Exercício 6 - Ordenar dicionários
 
-Dado um dicionario com produtos e precos, retorne uma lista de tuplas ordenada:
-1. Por preco (menor para maior)
-2. Por nome do produto (ordem alfabetica)
+Dado um dicionário com produtos e preços, retorne uma lista de tuplas ordenada:
+1. Por preço (menor para maior)
+2. Por nome do produto (ordem alfabética)
 
 ```python
 produtos = {
@@ -122,9 +122,9 @@ por_nome = # use sorted com items()
 
 ---
 
-## Exercicio 7 - Map e Filter combinados
+## Exercício 7 - Map e Filter combinados
 
-Dada uma lista de numeros, use `map` e `filter` em conjunto para retornar o quadrado de todos os numeros impares.
+Dada uma lista de números, use `map` e `filter` em conjunto para retornar o quadrado de todos os números ímpares.
 
 ```python
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -136,12 +136,12 @@ resultado = # combine map e filter
 
 ---
 
-## Exercicio 8 - Ordenacao de strings por criterio
+## Exercício 8 - Ordenação de strings por critério
 
 Dada uma lista de palavras, ordene-as por:
 1. Tamanho da palavra (menor para maior)
-2. Ultima letra da palavra (ordem alfabetica)
-3. Numero de vogais (maior para menor)
+2. Última letra da palavra (ordem alfabética)
+3. Número de vogais (maior para menor)
 
 ```python
 palavras = ["python", "java", "go", "javascript", "rust", "c", "typescript"]

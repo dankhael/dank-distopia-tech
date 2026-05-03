@@ -1,26 +1,26 @@
 # Milestone 2 - Estruturas Iniciais da Linguagem
 
-**Tema:** Listas, loops, condicionais e operadores logicos
+**Tema:** Listas, loops, condicionais e operadores lógicos
 
 **Linguagem:** Python
 
 ---
 
-## Exercicio 1 - Par ou impar
+## Exercício 1 - Par ou ímpar
 
-Escreva um programa que receba um numero inteiro do usuario e imprima se ele e par ou impar.
+Escreva um programa que receba um número inteiro do usuário e imprima se ele é par ou ímpar.
 
 **Exemplo:**
 ```
-Digite um numero: 7
-7 e impar
+Digite um número: 7
+7 é ímpar
 ```
 
-**Dica:** Use o operador `%` (modulo).
+**Dica:** Use o operador `%` (módulo).
 
 ---
 
-## Exercicio 2 - Classificador de notas
+## Exercício 2 - Classificador de notas
 
 Escreva um programa que receba a nota de um aluno (0 a 10) e imprima o conceito:
 - A: 9.0 a 10.0
@@ -37,11 +37,11 @@ Conceito: B
 
 ---
 
-## Exercicio 3 - Contagem regressiva
+## Exercício 3 - Contagem regressiva
 
-Usando um loop `for`, imprima uma contagem regressiva de 10 ate 1, e ao final imprima "Fogo!".
+Usando um loop `for`, imprima uma contagem regressiva de 10 até 1, e ao final imprima "Fogo!".
 
-**Saida esperada:**
+**Saída esperada:**
 ```
 10
 9
@@ -53,20 +53,20 @@ Fogo!
 
 ---
 
-## Exercicio 4 - Soma de lista
+## Exercício 4 - Soma de lista
 
-Dada a lista `numeros = [3, 7, 2, 8, 1, 5]`, percorra a lista com um loop e calcule a soma total **sem usar** a funcao `sum()`.
+Dada a lista `numeros = [3, 7, 2, 8, 1, 5]`, percorra a lista com um loop e calcule a soma total **sem usar** a função `sum()`.
 
-**Saida esperada:**
+**Saída esperada:**
 ```
 Soma: 26
 ```
 
 ---
 
-## Exercicio 5 - Validador de senha
+## Exercício 5 - Validador de senha
 
-Escreva um programa que peca uma senha ao usuario repetidamente (usando `while`) ate que ele digite a senha correta `"python123"`. Ao acertar, imprima "Acesso permitido!".
+Escreva um programa que peça uma senha ao usuário repetidamente (usando `while`) até que ele digite a senha correta `"python123"`. Ao acertar, imprima "Acesso permitido!".
 
 **Exemplo:**
 ```

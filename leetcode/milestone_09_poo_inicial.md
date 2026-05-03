@@ -1,14 +1,14 @@
-# Milestone 9 - Conceitos Iniciais de Programacao Orientada a Objeto
+# Milestone 9 - Conceitos Iniciais de Programação Orientada a Objeto
 
-**Tema:** Classes, objetos, atributos, metodos, encapsulamento e heranca
+**Tema:** Classes, objetos, atributos, métodos, encapsulamento e herança
 
 **Linguagem:** Java
 
 ---
 
-## Exercicio 1 - Primeira classe
+## Exercício 1 - Primeira classe
 
-Crie uma classe `Pessoa` com atributos `nome` e `idade`, um construtor, e um metodo `apresentar()` que imprima uma mensagem.
+Crie uma classe `Pessoa` com atributos `nome` e `idade`, um construtor, e um método `apresentar()` que imprima uma mensagem.
 
 ```java
 public class Pessoa {
@@ -21,19 +21,19 @@ public class Pessoa {
     public static void main(String[] args) {
         Pessoa p = new Pessoa("Maria", 25);
         p.apresentar();
-        // Saida: Ola, meu nome e Maria e tenho 25 anos.
+        // Saída: Olá, meu nome é Maria e tenho 25 anos.
     }
 }
 ```
 
 ---
 
-## Exercicio 2 - Conta bancaria
+## Exercício 2 - Conta bancária
 
 Crie uma classe `ContaBancaria` com:
 - Atributos privados: `titular`, `saldo`
-- Metodos: `depositar(valor)`, `sacar(valor)`, `consultarSaldo()`
-- O saque so deve ser permitido se houver saldo suficiente
+- Métodos: `depositar(valor)`, `sacar(valor)`, `consultarSaldo()`
+- O saque só deve ser permitido se houver saldo suficiente
 
 ```java
 public class ContaBancaria {
@@ -67,9 +67,9 @@ public class ContaBancaria {
 
 ---
 
-## Exercicio 3 - Getters e Setters
+## Exercício 3 - Getters e Setters
 
-Crie uma classe `Produto` com atributos privados `nome`, `preco` e `quantidade`. Implemente getters e setters com validacao (preco e quantidade nao podem ser negativos).
+Crie uma classe `Produto` com atributos privados `nome`, `preco` e `quantidade`. Implemente getters e setters com validação (preco e quantidade não podem ser negativos).
 
 ```java
 public class Produto {
@@ -79,7 +79,7 @@ public class Produto {
 
     // construtor
 
-    // getters e setters com validacao
+    // getters e setters com validação
 
     public double valorTotal() {
         return preco * quantidade;
@@ -88,7 +88,7 @@ public class Produto {
     public static void main(String[] args) {
         Produto p = new Produto("Notebook", 3500.00, 10);
         System.out.println(p.getPreco());      // 3500.0
-        p.setPreco(-100);                       // Preco invalido!
+        p.setPreco(-100);                       // Preço inválido!
         System.out.println(p.valorTotal());     // 35000.0
     }
 }
@@ -96,9 +96,9 @@ public class Produto {
 
 ---
 
-## Exercicio 4 - Heranca basica
+## Exercício 4 - Herança básica
 
-Crie uma classe `Animal` com atributo `nome` e metodo `emitirSom()`. Depois crie subclasses `Cachorro` e `Gato` que sobrescrevam o metodo.
+Crie uma classe `Animal` com atributo `nome` e método `emitirSom()`. Depois crie subclasses `Cachorro` e `Gato` que sobrescrevam o método.
 
 ```java
 public class Animal {
@@ -124,7 +124,7 @@ public class Animal {
 
 ---
 
-## Exercicio 5 - Construtor com super
+## Exercício 5 - Construtor com super
 
 Crie uma classe `Veiculo` com atributos `marca`, `modelo` e `ano`. Depois crie `Carro` que herda de `Veiculo` e adiciona o atributo `numPortas`. Use `super()` no construtor.
 
@@ -142,7 +142,7 @@ public class Carro extends Veiculo {
 
     // construtor usando super()
 
-    // metodo exibirInfo()
+    // método exibirInfo()
 }
 
 // Teste:
@@ -153,9 +153,9 @@ public class Carro extends Veiculo {
 
 ---
 
-## Exercicio 6 - toString e equals
+## Exercício 6 - toString e equals
 
-Crie uma classe `Aluno` com `nome`, `matricula` e `curso`. Sobrescreva os metodos `toString()` e `equals()` (dois alunos sao iguais se tiverem a mesma matricula).
+Crie uma classe `Aluno` com `nome`, `matricula` e `curso`. Sobrescreva os métodos `toString()` e `equals()` (dois alunos são iguais se tiverem a mesma matrícula).
 
 ```java
 public class Aluno {
@@ -179,14 +179,14 @@ public class Aluno {
         Aluno a1 = new Aluno("Ana", 12345, "CC");
         Aluno a2 = new Aluno("Ana Silva", 12345, "Computacao");
         System.out.println(a1);              // Aluno{nome=Ana, matricula=12345, curso=CC}
-        System.out.println(a1.equals(a2));   // true (mesma matricula)
+        System.out.println(a1.equals(a2));   // true (mesma matrícula)
     }
 }
 ```
 
 ---
 
-## Exercicio 7 - ArrayList de objetos
+## Exercício 7 - ArrayList de objetos
 
 Crie uma classe `Turma` que gerencie uma lista de alunos usando `ArrayList`. Implemente:
 - `adicionarAluno(Aluno a)`
@@ -204,7 +204,7 @@ public class Turma {
         this.alunos = new ArrayList<>();
     }
 
-    // implemente os metodos
+    // implemente os métodos
 
     public static void main(String[] args) {
         Turma t = new Turma();
@@ -219,14 +219,14 @@ public class Turma {
 
 ---
 
-## Exercicio 8 - Metodos estaticos
+## Exercício 8 - Métodos estáticos
 
-Crie uma classe utilitaria `MathUtils` com metodos estaticos:
+Crie uma classe utilitária `MathUtils` com métodos estáticos:
 - `max(int a, int b)`: retorna o maior
 - `min(int a, int b)`: retorna o menor
-- `media(int[] numeros)`: retorna a media
+- `media(int[] numeros)`: retorna a média
 - `fatorial(int n)`: retorna o fatorial
-- `ehPrimo(int n)`: verifica se e primo
+- `ehPrimo(int n)`: verifica se é primo
 
 ```java
 public class MathUtils {
