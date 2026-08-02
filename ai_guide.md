@@ -4,7 +4,7 @@
 **Definição:** A inteligência artificial (IA) é um campo da ciência da computação que se concentra na criação de sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana. Isso inclui aprendizado, raciocínio, percepção, compreensão de linguagem natural e tomada de decisões. A IA é amplamente utilizada em diversas indústrias, desde saúde e finanças até entretenimento e transporte, transformando a maneira como interagimos com a tecnologia e o mundo ao nosso redor.
 
 
-**Termos Chave:** Machine Learning, Deep Learning, Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, Neural Networks, Data Science, Big Data, AI Ethics
+**Termos Chave:** Machine Learning, Deep Learning, Natural Language Processing (NLP), Computer Vision, Reinforcement Learning, Neural Networks, Data Science, Big Data, AI Ethics, Transformers, Large Language Models (LLMs), Tokens/Tokenização, Context Window, Embeddings, Prompt Engineering, Fine-tuning, Retrieval-Augmented Generation (RAG), AI Agents, Hallucination
 
 
 ## PROFISSÕES E ATUAÇÃO
@@ -35,12 +35,17 @@ Python é a linguagem de programação mais popular para desenvolvimento de IA d
     - https://numpy.org/
 - Gymnasium: Biblioteca para desenvolvimento e comparação de algoritmos de aprendizado por reforço, permitindo a criação de ambientes personalizados para treinamento de agentes de IA:
     - https://gymnasium.farama.org
+- Hugging Face: Plataforma e biblioteca (Transformers, Datasets, Hub) que se tornou o ponto de entrada padrão para trabalhar com modelos pré-treinados de LLMs, NLP e Visão Computacional, complementando frameworks como TensorFlow e PyTorch:
+    - https://huggingface.co/
 - Entre muitas outras bibliotecas e ferramentas que facilitam o desenvolvimento de soluções de IA em Python.
 
 
 ## EXEMPLOS DE PROJETOS
 - https://github.com/pchmelo/AI_Project_1: Desenvolvimento de um algoritmo para resolver puzzles (Free Cell Solitaire) através de algoritmos Greedy Search, A* Search entre outros.
 - https://github.com/pchmelo/AI_Project_2/tree/master: Desenvolvimento de modelos de IA para classificação de atribuição de empréstimos bancários, utilizando técnicas de aprendizado de máquina supervisionado (Decision Tree, Random Forest, SVM, Neural Networks, etc.).
+- Um RAG (Retrieval-Augmented Generation) simples sobre documentos pessoais, usando LangChain ou LlamaIndex junto de uma vector database como Chroma, é um bom projeto introdutório para quem quer entender embeddings e recuperação de informação.
+- Um agente básico com LangGraph ou CrewAI, com 2-3 ferramentas, ensina os fundamentos de agentic loops.
+- Lista curada com mais ideias de projetos de GenAI para iniciantes: https://github.com/pankaj-kaushik/gen-ai-beginner-projects
 
 
 ## LINKS ÚTEIS
@@ -54,4 +59,6 @@ Python é a linguagem de programação mais popular para desenvolvimento de IA d
 
 
 ### Roadmap Sugerido
-- https://roadmap.sh/ai-data-scientist
+- https://roadmap.sh/ai-data-scientist (percurso clássico de Data Science/ML)
+- https://roadmap.sh/ai-engineer (percurso focado em construir com LLMs: APIs, RAG, agentes)
+- https://roadmap.sh/prompt-engineering

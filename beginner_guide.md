@@ -41,6 +41,8 @@ Comece realizando exercícios simples (https://exercicios.dunossauro.com/01_estr
 
 Una bem o estudo teórico com a prática, mantenha uma rotina resolvendo exercicíos de Leet Code (https://leetcode.com/)
 
+Também vale a pena experimentar o Exercism (https://exercism.org), que além de ter exercícios em mais de 60 linguagens ainda dá mentoria e revisão de código sobre as tuas soluções, e o CS50 de Harvard (https://cs50.harvard.edu/x/), um curso gratuito de fundamentos de programação muito bem avaliado pela comunidade.
+
 **Alguns canais no Youtube para iniciantes:**
 - BroCode: https://www.youtube.com/@BroCodez/videos
 - FreeCodeCamp: https://www.youtube.com/@freecodecamp/videos
